@@ -2,6 +2,12 @@
 
 A hyper-scalable B2B Developer Infrastructure proxy platform.
 
+## Goals
+- Collaborate with your team for free
+- Build, test, and share APIs in one place
+- Automate your API workflows
+- Accelerate your work with AI
+
 ## Architecture Highlights
 - **Proxy Layer**: Built in Go for compile-time optimization, concurrency handling, and low memory usage.
 - **Authentication/Rate-limiting**: Redis-backed with sub-millisecond key lookups. Uses a token-bucket (sliding window) implementation. Limit: 60 requests/minute.
